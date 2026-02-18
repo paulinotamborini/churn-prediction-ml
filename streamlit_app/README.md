@@ -283,9 +283,9 @@ MIT License - Ver `LICENSE` para más detalles
 ## 👤 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- Email: tu-email@example.com
+- GitHub: github.com/paulinotamborini
+- LinkedIn: [https://www.linkedin.com/in/paulino-tamborini-41a60b272/]
+- Email: paulinotamborini044@gmail.com
 
 ## 🙏 Agradecimientos
 
