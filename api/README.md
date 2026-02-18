@@ -331,7 +331,7 @@ models/
 
 ## 👤 Autor
 
-Tu nombre - Proyecto de Churn Prediction
+PAULINO TAMBORINI - Proyecto de Churn Prediction
 
 ## 📄 Licencia
 
