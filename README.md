@@ -1,94 +1,91 @@
-# 🎯 Churn Prediction ML Project
+# 🔮 Churn Prediction - Telco Customer
 
-Sistema completo de Machine Learning para predecir abandono de clientes en telecomunicaciones.
+Proyecto de Machine Learning para predecir la probabilidad de que un cliente abandone el servicio (churn).
 
-## 📊 Objetivo del Proyecto
+## 📊 Dataset
 
-Desarrollar un modelo de clasificación que identifique clientes con alto riesgo de churn, permitiendo estrategias de retención proactivas.
+- **Fuente**: Telco Customer Churn Dataset
+- **Registros**: ~7,000 clientes
+- **Variables**: 21 features (demográficas, servicios, facturación)
+- **Target**: Churn (Yes/No)
 
-## 🛠️ Stack Tecnológico
+## 🎯 Objetivo
 
-- **Python 3.9+**
-- **Pandas, NumPy** - Análisis de datos
-- **Scikit-learn, XGBoost** - Machine Learning
-- **FastAPI** - API REST
-- **Streamlit** - Dashboard interactivo
-- **Docker** - Containerización
-- **MLflow** - Experiment tracking
+Desarrollar un modelo predictivo para identificar clientes con alta probabilidad de churn, permitiendo:
+- Estrategias proactivas de retención
+- Segmentación de clientes en riesgo
+- Optimización de recursos de marketing
 
-## 🚀 Configuración del Entorno
+## 📁 Estructura del Proyecto
+
+```
+churn-prediction/
+├── data/
+│   ├── raw/              # Datos originales
+│   └── processed/        # Datos procesados
+├── notebooks/            # Jupyter notebooks
+│   ├── 01_eda.ipynb
+│   ├── 02_categorical_analysis.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   └── 04_modeling.ipynb
+├── models/               # Modelos entrenados
+├── src/                  # Código fuente
+└── reports/              # Reportes y visualizaciones
+```
+
+## 🔄 Flujo de Trabajo
+
+1. **EDA** - Análisis exploratorio de datos
+2. **Análisis Categórico** - Relaciones entre variables y churn
+3. **Feature Engineering** - Creación de nuevas variables
+4. **Modelado** - Entrenamiento de modelos ML
+
+## 🤖 Modelos Implementados
+
+- Logistic Regression (baseline)
+- Random Forest
+- Gradient Boosting
+- XGBoost
+
+## 📈 Métricas Principales
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+
+## 🛠️ Tecnologías
+
+- Python 3.8+
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib, Seaborn, Plotly
+- Jupyter Notebook
+
+## 🚀 Instalación
+
 ```bash
 # Clonar repositorio
-git clone https://github.com/TU-USUARIO/churn-prediction-ml.git
-cd churn-prediction-ml
-
-# Crear y activar entorno virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+git clone <tu-repo>
+cd churn-prediction
 
 # Instalar dependencias
 pip install -r requirements.txt
+
+# Ejecutar notebooks
+jupyter notebook
 ```
 
-## 📈 Progreso del Proyecto
+## 📊 Resultados
 
-- [x] Configuración inicial
-- [ ] Análisis exploratorio de datos
-- [ ] Feature engineering
-- [ ] Desarrollo de modelos
-- [ ] Evaluación y optimización
-- [ ] Deployment
-- [ ] Dashboard
+(Completar después del análisis)
 
-## 📝 Autor
+## 👤 Autor
 
-Paulino Tamborini - Data Scientist
+Tu nombre
 
----
+## 📝 Licencia
 
-**Fecha de inicio:** [Fecha de hoy]
-```
-
-### 6.2 Crear .gitignore (si no se creó automáticamente)
-
-Crea un archivo `.gitignore` con esto:
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-
-# Jupyter
-.ipynb_checkpoints
-
-# Data
-data/raw/*.csv
-data/processed/*.csv
-*.pkl
-*.joblib
-
-# Models
-models/saved_models/*.pkl
-models/saved_models/*.h5
-
-# MLflow
-mlruns/
-mlartifacts/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment variables
-.env
+MIT
