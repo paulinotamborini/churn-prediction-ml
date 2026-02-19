@@ -282,7 +282,7 @@ MIT License - Ver `LICENSE` para más detalles
 
 ## 👤 Autor
 
-**Tu Nombre**
+**PAULINO TAMBORINI**
 - GitHub: github.com/paulinotamborini
 - LinkedIn: [https://www.linkedin.com/in/paulino-tamborini-41a60b272/]
 - Email: paulinotamborini044@gmail.com
